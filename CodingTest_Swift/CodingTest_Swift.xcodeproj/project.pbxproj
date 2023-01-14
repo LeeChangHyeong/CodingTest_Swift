@@ -38,6 +38,7 @@
 		328EC35429702870007307D4 /* 문자열 정렬하기(1).swift in Sources */ = {isa = PBXBuildFile; fileRef = 328EC35329702870007307D4 /* 문자열 정렬하기(1).swift */; };
 		328EC35629702DC1007307D4 /* 숨어있는 숫자의 덧셈(1).swift in Sources */ = {isa = PBXBuildFile; fileRef = 328EC35529702DC1007307D4 /* 숨어있는 숫자의 덧셈(1).swift */; };
 		32AAFB9E29725D0000DAF02E /* 소인수분해.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAFB9D29725D0000DAF02E /* 소인수분해.swift */; };
+		32AAFBA0297267C900DAF02E /* 컨트롤 제트.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAFB9F297267C900DAF02E /* 컨트롤 제트.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +86,7 @@
 		328EC35329702870007307D4 /* 문자열 정렬하기(1).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 정렬하기(1).swift"; sourceTree = "<group>"; };
 		328EC35529702DC1007307D4 /* 숨어있는 숫자의 덧셈(1).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "숨어있는 숫자의 덧셈(1).swift"; sourceTree = "<group>"; };
 		32AAFB9D29725D0000DAF02E /* 소인수분해.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "소인수분해.swift"; sourceTree = "<group>"; };
+		32AAFB9F297267C900DAF02E /* 컨트롤 제트.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "컨트롤 제트.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				328EC31F29702431007307D4 /* 문자 반복 출력하기.swift */,
 				328EC32A29702431007307D4 /* 문자열 뒤집기.swift */,
 				328EC32E29702431007307D4 /* 배열 뒤집기.swift */,
+				32AAFB9F297267C900DAF02E /* 컨트롤 제트.swift */,
 				328EC35329702870007307D4 /* 문자열 정렬하기(1).swift */,
 				328EC32C29702431007307D4 /* 배열 원소의 길이.swift */,
 				328EC31D29702431007307D4 /* 배열 자르기.swift */,
@@ -230,6 +233,7 @@
 			files = (
 				328EC34A29702431007307D4 /* 짝수의 합.swift in Sources */,
 				328EC34E29702432007307D4 /* 점의 위치 구하기.swift in Sources */,
+				32AAFBA0297267C900DAF02E /* 컨트롤 제트.swift in Sources */,
 				328EC33F29702431007307D4 /* 각도기.swift in Sources */,
 				328EC33D29702431007307D4 /* 팩토리얼.swift in Sources */,
 				328EC3152970237C007307D4 /* main.swift in Sources */,
