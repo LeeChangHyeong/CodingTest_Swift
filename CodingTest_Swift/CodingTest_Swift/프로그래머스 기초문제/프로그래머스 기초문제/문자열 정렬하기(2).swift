@@ -5,21 +5,21 @@
 //  Created by 이창형 on 2023/01/20.
 //
 
-import Foundation
+//import Foundation
 
-func solution(_ my_string:String) -> String {
-    var strArray = [String]()
-    var answer = ""
-    
-    for i in my_string {
-        var low = i.lowercased()
-
-        strArray.append(low)
-    }
-    
-    for i in strArray.sorted() {
-        answer.append(i)
-    }
-    
-    return answer
-}
+//func solution(_ my_string:String) -> String {
+//    var strArray = [String]()
+//    var answer = ""
+//
+//    for i in my_string {
+//        var low = i.lowercased()
+//
+//        strArray.append(low)
+//    }
+//
+//    for i in strArray.sorted() {
+//        answer.append(i)
+//    }
+//
+//    return answer
+//}
