@@ -6,13 +6,12 @@
 //
 
 //import Foundation
-//
+
 //func solution(_ progresses:[Int], _ speeds:[Int]) -> [Int] {
-//    var result: [Int] = []
+//    var result = [Int]()
 //    var progresses = progresses
 //    var speeds = speeds
-//    
-//    print(progresses.isEmpty)
+//
 //    while !progresses.isEmpty {
 //        for i in (0..<progresses.count) {
 //            progresses[i] += speeds[i]
@@ -32,4 +31,3 @@
 //    }
 //    return result
 //}
-
