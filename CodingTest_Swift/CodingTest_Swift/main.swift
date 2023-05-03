@@ -1,14 +1,18 @@
+//import Foundation
 //
-//class Solution {
-//    var memo: [Int:Int] = [0:1, 1:1]
-//    func climbStairs(_ n: Int) -> Int {
-//        if let value = memo[n] {
-//            return value
-//        } else {
-//            let answer = climbStairs(n-1) + climbStairs(n-2)
-//            memo[n] = answer
-//            return answer
-//        }
-//    }
+//struct Person: Codable {
+//    var name: String
+//    var age: Int
 //}
 //
+//let data = """
+//{
+//    "name" : "changbro",
+//    "age"  : 27
+//}
+//""".data(using: .utf8)!
+//
+//let changbro = try? JSONDecoder().decode(Person.self, from: data)
+//
+//print(changbro?.name ?? "")
+//print(changbro?.age ?? 0)
