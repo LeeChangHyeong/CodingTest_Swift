@@ -7,10 +7,12 @@
 
 func solution(_ tickets:[[String]]) -> [String] {
     var visited = Array(repeating: false, count: tickets.count)
+    // 알파벳으로 정렬
     let tickets = tickets.sorted { $0[1] < $1[1] }
     var path = [String]()
 
     func dfs(_ airport: String) {
+        // 마지막 경로 추가
         if path.count == tickets.count {
             path.append(airport)
             return
