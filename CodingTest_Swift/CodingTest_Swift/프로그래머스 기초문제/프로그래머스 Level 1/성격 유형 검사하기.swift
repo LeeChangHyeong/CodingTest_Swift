@@ -9,6 +9,8 @@ import Foundation
 
 func solution(_ survey:[String], _ choices:[Int]) -> String {
     var dic = [String:Int]()
+    var answer = ""
+    
     for i in survey {
         for j in i {
             if dic[String(j)] == nil {
@@ -38,6 +40,31 @@ func solution(_ survey:[String], _ choices:[Int]) -> String {
                 break
         }
     }
-    print(dic)
-    return ""
+
+    if (dic["R"] ?? 0) >= (dic["T"] ?? 0) {
+        answer.append("R")
+    } else {
+        answer.append("T")
+    }
+    
+    if (dic["C"] ?? 0) >= (dic["F"] ?? 0) {
+        answer.append("C")
+    } else {
+        answer.append("F")
+    }
+    
+    if (dic["J"] ?? 0) >= (dic["M"] ?? 0) {
+        answer.append("J")
+    } else {
+        answer.append("M")
+    }
+    
+    if (dic["A"] ?? 0) >= (dic["N"] ?? 0) {
+        answer.append("A")
+    } else {
+        answer.append("N")
+    }
+    
+    
+    return answer
 }
