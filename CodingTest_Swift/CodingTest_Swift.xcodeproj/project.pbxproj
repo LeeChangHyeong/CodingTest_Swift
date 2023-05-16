@@ -59,6 +59,7 @@
 		3209663F29E3B9C400C16A05 /* 할인 행사.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3209663E29E3B9C400C16A05 /* 할인 행사.swift */; };
 		320C149B2A11D526008C341D /* B_1260.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C149A2A11D526008C341D /* B_1260.swift */; };
 		320C149D2A1210A6008C341D /* B_2178.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C149C2A1210A6008C341D /* B_2178.swift */; };
+		320C149F2A134A47008C341D /* B_2606.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C149E2A134A47008C341D /* B_2606.swift */; };
 		3220A21E29E7BE29003B1013 /* Lowest Common Ancestor of a Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220A21D29E7BE29003B1013 /* Lowest Common Ancestor of a Binary Tree.swift */; };
 		3220A22029E7E21F003B1013 /* Maximum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220A21F29E7E21F003B1013 /* Maximum Depth of Binary Tree.swift */; };
 		3220A22229E7E996003B1013 /* 주차요금 계산.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220A22129E7E996003B1013 /* 주차요금 계산.swift */; };
@@ -261,6 +262,7 @@
 		3209663E29E3B9C400C16A05 /* 할인 행사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "할인 행사.swift"; sourceTree = "<group>"; };
 		320C149A2A11D526008C341D /* B_1260.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_1260.swift; sourceTree = "<group>"; };
 		320C149C2A1210A6008C341D /* B_2178.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_2178.swift; sourceTree = "<group>"; };
+		320C149E2A134A47008C341D /* B_2606.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_2606.swift; sourceTree = "<group>"; };
 		3220A21D29E7BE29003B1013 /* Lowest Common Ancestor of a Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lowest Common Ancestor of a Binary Tree.swift"; sourceTree = "<group>"; };
 		3220A21F29E7E21F003B1013 /* Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		3220A22129E7E996003B1013 /* 주차요금 계산.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "주차요금 계산.swift"; sourceTree = "<group>"; };
@@ -468,6 +470,7 @@
 			children = (
 				320C149A2A11D526008C341D /* B_1260.swift */,
 				320C149C2A1210A6008C341D /* B_2178.swift */,
+				320C149E2A134A47008C341D /* B_2606.swift */,
 			);
 			name = "백준";
 			path = "백준";
@@ -809,6 +812,7 @@
 				320388F82A0397150083822A /* 숫자 변환하기.swift in Sources */,
 				3209663D29DFEBB300C16A05 /* Daily Temperatures.swift in Sources */,
 				322B2DFC29B9C18F0055FFC6 /* 짝지어 제거하기.swift in Sources */,
+				320C149F2A134A47008C341D /* B_2606.swift in Sources */,
 				323A9D0629A8DEAD005DF79C /* K의 개수.swift in Sources */,
 				328EC35229702503007307D4 /* 모음 제거.swift in Sources */,
 				324247C7297A549300382F74 /* 잘라서 배열로 저장하기.swift in Sources */,
