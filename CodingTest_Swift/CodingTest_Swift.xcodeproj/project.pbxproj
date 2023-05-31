@@ -205,6 +205,7 @@
 		32FBCCEB2A1B8A97002C3691 /* B_2578_구현.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FBCCEA2A1B8A97002C3691 /* B_2578_구현.swift */; };
 		32FBCCED2A20807B002C3691 /* B_10811_1차배열.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FBCCEC2A20807B002C3691 /* B_10811_1차배열.swift */; };
 		32FBCCEF2A24AC1B002C3691 /* B_10798_2차원 배열.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FBCCEE2A24AC1B002C3691 /* B_10798_2차원 배열.swift */; };
+		32FBCCF12A270CC5002C3691 /* B_19532_완전탐색.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FBCCF02A270CC5002C3691 /* B_19532_완전탐색.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -419,6 +420,7 @@
 		32FBCCEA2A1B8A97002C3691 /* B_2578_구현.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "B_2578_구현.swift"; sourceTree = "<group>"; };
 		32FBCCEC2A20807B002C3691 /* B_10811_1차배열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "B_10811_1차배열.swift"; sourceTree = "<group>"; };
 		32FBCCEE2A24AC1B002C3691 /* B_10798_2차원 배열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "B_10798_2차원 배열.swift"; sourceTree = "<group>"; };
+		32FBCCF02A270CC5002C3691 /* B_19532_완전탐색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "B_19532_완전탐색.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -502,6 +504,7 @@
 				32FBCCE82A1B4B65002C3691 /* B_20546_구현.swift */,
 				32FBCCEE2A24AC1B002C3691 /* B_10798_2차원 배열.swift */,
 				32FBCCDE2A1389CA002C3691 /* B_2644.swift */,
+				32FBCCF02A270CC5002C3691 /* B_19532_완전탐색.swift */,
 				32FBCCEC2A20807B002C3691 /* B_10811_1차배열.swift */,
 				320C149E2A134A47008C341D /* B_2606.swift */,
 				32FBCCE62A1B2BC3002C3691 /* B_2480_조건문.swift */,
@@ -852,6 +855,7 @@
 				3281BBA129C2DA1300FA2D50 /* 행렬의 곱셈.swift in Sources */,
 				320388F82A0397150083822A /* 숫자 변환하기.swift in Sources */,
 				32FBCCE92A1B4B65002C3691 /* B_20546_구현.swift in Sources */,
+				32FBCCF12A270CC5002C3691 /* B_19532_완전탐색.swift in Sources */,
 				3209663D29DFEBB300C16A05 /* Daily Temperatures.swift in Sources */,
 				322B2DFC29B9C18F0055FFC6 /* 짝지어 제거하기.swift in Sources */,
 				320C149F2A134A47008C341D /* B_2606.swift in Sources */,

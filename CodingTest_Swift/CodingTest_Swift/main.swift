@@ -1,14 +1,16 @@
-var words = [[String]](repeating: [String](repeating: "", count: 15), count: 5)
 
-for i in 0..<5 {
-    let word = readLine()!.map { String($0) }
-    let lastIndex = word.count - 1
-    // (인덱스 범위 만큼, word로 바꿔준다)
-    words[i].replaceSubrange(0..<lastIndex, with: word)
-}
+let arr = readLine()!.split(separator: " ").map{Int($0)!}
+let a = arr[0], b = arr[1], c = arr[2], d = arr[3], e = arr[4], f = arr[5]
 
-for i in 0..<15 {
-    for j in 0..<5 {
-        print(words[j][i], terminator: "")
+OUTTER: for i in -999...999 {
+    for j in -999...999 {
+        let result = a*i + b*j
+        let result2 = d*i + e*j
+        
+        if result == c && result2 == f {
+            print(i, terminator: " ")
+            print(j)
+            break OUTTER
+        }
     }
 }
