@@ -18,13 +18,13 @@
 //    let now = readLine()!.split(separator: " ").map{Int(String($0))!}
 //    let a = now[0]
 //    let b = now[1]
-//    
+//
 //    if grid[a] == nil {
 //        grid[a] = [b]
 //    } else {
 //        grid[a]?.append(b)
 //    }
-//    
+//
 //    if grid[b] == nil {
 //        grid[b] = [a]
 //    } else {
