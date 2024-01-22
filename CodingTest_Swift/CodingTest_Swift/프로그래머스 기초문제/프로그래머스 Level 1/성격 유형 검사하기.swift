@@ -69,24 +69,24 @@
 //    return answer
 //}
 
-import Foundation
-
-func solution(_ N:Int, _ number:Int) -> Int {
-    var nums = Set<(Int)>()
-    nums.insert(N)
-    func dfs (_ count: Int) -> Int{
-        var count = count
-        for i in nums {
-            if i == number {
-                return count
-            }
-            nums.insert(i*10 + N)
-            nums.insert(i/N)
-            nums.insert(i*N)
-            nums.insert(i+N)
-        }
-        return dfs(count + 1)
-    }
-    
-    return dfs(0)
-}
+//import Foundation
+//
+//func solution(_ N:Int, _ number:Int) -> Int {
+//    var nums = Set<(Int)>()
+//    nums.insert(N)
+//    func dfs (_ count: Int) -> Int{
+//        var count = count
+//        for i in nums {
+//            if i == number {
+//                return count
+//            }
+//            nums.insert(i*10 + N)
+//            nums.insert(i/N)
+//            nums.insert(i*N)
+//            nums.insert(i+N)
+//        }
+//        return dfs(count + 1)
+//    }
+//    
+//    return dfs(0)
+//}

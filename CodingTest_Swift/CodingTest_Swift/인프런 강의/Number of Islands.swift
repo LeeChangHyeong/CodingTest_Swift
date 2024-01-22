@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 // BFS 풀이
 //class Solution {
 //    func numIslands(_ grid: [[Character]]) -> Int {
@@ -89,3 +90,42 @@ import Foundation
 //
 //    }
 //}
+
+
+
+
+// 2023 1 21 다시 풀기
+// dfs 로 풀이
+
+//    func numIslands(_ grid: [[Character]]) -> Int {
+//        var count = 0
+//        let row = grid.count
+//        let col = grid[0].count
+//        var visited = Array(repeating: Array(repeating: false, count: col), count: row)
+//         let dx = [-1, 1, 0, 0]
+//            let dy = [0, 0, -1 , 1]
+//
+//        func dfs(_ x: Int, _ y: Int) {
+//            visited[x][y] = true
+//
+//            for i in 0..<4 {
+//                let next_x = x + dx[i]
+//                let next_y = y + dy[i]
+//
+//                if next_x >= 0 && next_y >= 0 && next_x < row && next_y < col && !visited[next_x][next_y] && grid[next_x][next_y] == "1" {
+//                    dfs(next_x, next_y)
+//                }
+//            }
+//        }
+//
+//        for i in 0..<row {
+//            for j in 0..<col {
+//                if !visited[i][j] && grid[i][j] == "1" {
+//                    dfs(i,j)
+//                    count += 1
+//                }
+//            }
+//        }
+//
+//        return count
+//    }

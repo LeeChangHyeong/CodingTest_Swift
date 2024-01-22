@@ -7,6 +7,8 @@
 
 import Foundation
 
+
+var array = readLine()!.split(separator: " ").map{Int($0)}
 // DFS 풀이
 //class Solution {
 //    func canVisitAllRooms(_ rooms: [[Int]]) -> Bool {
